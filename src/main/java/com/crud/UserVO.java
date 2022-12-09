@@ -1,4 +1,4 @@
-package com.crud.user;
+package com.crud;
 
 public class UserVO {
     private String userid;

@@ -5,16 +5,81 @@
   <artifactId>SpringMyBatis</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
+<!--  <properties>-->
+<!--    <maven.compiler.source>19</maven.compiler.source>-->
+<!--    <maven.compiler.target>19</maven.compiler.target>-->
+<!--  </properties>-->
   <name>SpringMyBatis Maven Webapp</name>
   <url>http://maven.apache.org</url>
+
+<!--  <properties>-->
+<!--    <java-version>1.6</java-version>-->
+<!--    <org.springframework-version>4.2.4.RELEASE</org.springframework-version>-->
+<!--    <org.aspectj-version>1.6.10</org.aspectj-version>-->
+<!--    <org.slf4j-version>1.6.6</org.slf4j-version>-->
+<!--  </properties>-->
   <dependencies>
+
+<!--    <dependency>-->
+<!--      <groupId>junit</groupId>-->
+<!--      <artifactId>junit</artifactId>-->
+<!--      <version>4.13.2</version>-->
+<!--      <scope>test</scope>-->
+<!--    </dependency>-->
+
     <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
+      <groupId>jstl</groupId>
+      <artifactId>jstl</artifactId>
+      <version>1.2</version>
+    </dependency>
+
+    <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>8.0.30</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-jdbc</artifactId>
+      <version>5.3.23</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.mybatis</groupId>
+      <artifactId>mybatis</artifactId>
+      <version>3.5.11</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.mybatis</groupId>
+      <artifactId>mybatis-spring</artifactId>
+      <version>3.0.0</version>
+    </dependency>
+
+
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-test</artifactId>
+      <version>5.3.23</version>
       <scope>test</scope>
     </dependency>
+
+
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-webmvc</artifactId>
+      <version>5.3.23</version>
+    </dependency>
+
+
   </dependencies>
+
+<!--    <properties>-->
+<!--        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>-->
+<!--        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>-->
+<!--    </properties>-->
+
   <build>
     <finalName>SpringMyBatis</finalName>
   </build>

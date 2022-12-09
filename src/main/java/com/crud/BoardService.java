@@ -1,4 +1,4 @@
-package com.crud.board;
+package com.crud;
 
 import java.util.List;
 

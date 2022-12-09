@@ -1,4 +1,4 @@
-package com.crud.board;
+package com.crud;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
