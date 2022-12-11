@@ -2,7 +2,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.example</groupId>
-  <artifactId>SpringMyBatis</artifactId>
+  <artifactId>TeamProject</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
   <properties>
@@ -21,7 +21,7 @@
   <!--    <maven.compiler.source>19</maven.compiler.source>-->
   <!--    <maven.compiler.target>19</maven.compiler.target>-->
   <!--  </properties>-->
-  <name>SpringMyBatis Maven Webapp</name>
+  <name>TeamProject Maven Webapp</name>
   <url>https://maven.apache.org</url>
 
   <!--  <properties>-->
@@ -117,6 +117,6 @@
         </configuration>
       </plugin>
     </plugins>
-    <finalName>SpringMyBatis</finalName>
+    <finalName>TeamProject</finalName>
   </build>
 </project>

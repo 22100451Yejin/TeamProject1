@@ -11,10 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b455504-4ba0-4a7c-a3bf-67e1e472a365" name="Changes" comment="commit">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +59,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/oseongjin/Documents/22-2/실전프로젝트1/SpringMyBatis",
+    "last_opened_file_path": "/Users/oseongjin/Documents/22-2/실전프로젝트1/TeamProject",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -92,14 +90,9 @@
     <configuration name="Tomcat 9.0.68" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.68" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="openjdk-19" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="SpringMyBatis:war exploded">
+        <artifact name="TeamProject:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/SpringMyBatis_war_exploded" />
-          </settings>
-        </artifact>
-        <artifact name="SpringMyBatis:war">
-          <settings>
-            <option name="CONTEXT_PATH" value="/SpringMyBatis_war" />
+            <option name="CONTEXT_PATH" value="/TeamProject_war_exploded" />
           </settings>
         </artifact>
       </deployment>
@@ -179,6 +172,7 @@
         <option name="BuildArtifacts" enabled="true">
           <artifact name="SpringMyBatis:war exploded" />
           <artifact name="SpringMyBatis:war" />
+          <artifact name="TeamProject:war exploded" />
         </option>
       </method>
     </configuration>
@@ -199,7 +193,9 @@
       <workItem from="1670613638518" duration="229000" />
       <workItem from="1670613876139" duration="1369000" />
       <workItem from="1670615318517" duration="3848000" />
-      <workItem from="1670656574935" duration="798000" />
+      <workItem from="1670656574935" duration="1506000" />
+      <workItem from="1670692494365" duration="343000" />
+      <workItem from="1670742396979" duration="201000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1670570406394</created>
@@ -208,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670570406394</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit">
+      <created>1670657734399</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670657734399</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
