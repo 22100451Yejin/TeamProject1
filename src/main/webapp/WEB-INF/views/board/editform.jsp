@@ -10,10 +10,14 @@
 <form:form  modelAttribute="u" method="POST" action="../editok">
     <form:hidden path="seq"/>
     <table id="edit">
-        <tr><td>카테고리</td><td><form:input path="category" /></td></tr>
-        <tr><td>제목</td><td><form:input path="title" /></td></tr>
-        <tr><td>글쓴이</td><td><form:input path="writer" /></td></tr>
-        <tr><td>내용</td><td><form:textarea cols="50" rows="5" path="content" /></td></tr>
+        <tr><td> 이름: </td><td><form:input path="studentName"/></td></tr>
+        <tr><td> 학번: </td><td><form:input path="studentID"/></td></tr>
+        <tr><td> 나이: </td><td><form:input path="age"/></td></tr>
+        <tr><td> 성별: </td><td><form:input path="gender" /></td></tr>
+        <tr><td> 열: </td><td><form:input path="fever"/></td></tr>
+        <tr><td> 두통: </td><td><form:input path="headache"/></td></tr>
+        <tr><td> 콧물: </td><td><form:input path="runnyNose"/></td></tr>
+        <tr><td> 기침: </td><td><form:input path="cough" /></td></tr>
     </table>
     <input type="submit" value="수정하기"/>
     <input type="button" value="취소하기"/>

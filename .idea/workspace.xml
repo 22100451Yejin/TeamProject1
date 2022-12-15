@@ -10,7 +10,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b455504-4ba0-4a7c-a3bf-67e1e472a365" name="Changes" comment="TeamProject commit">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/crud/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crud/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/crud/BoardVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crud/BoardVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/board-mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/board-mapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/board/addpostform.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/board/addpostform.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/board/editform.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/board/editform.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/board/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/board/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +73,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "vcs.Git",
-    "spring.configuration.checksum": "5d619c862170a49c53a96ac51013ee89"
+    "spring.configuration.checksum": "9c6e94932cf718824f4c08ed140cdd49"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -194,7 +200,8 @@
       <workItem from="1670615318517" duration="3848000" />
       <workItem from="1670656574935" duration="1506000" />
       <workItem from="1670692494365" duration="343000" />
-      <workItem from="1670742396979" duration="519000" />
+      <workItem from="1670742396979" duration="7614000" />
+      <workItem from="1671077115988" duration="560000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1670570406394</created>
@@ -217,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670742739272</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="TeamProject commit">
+      <created>1670743045214</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670743045214</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

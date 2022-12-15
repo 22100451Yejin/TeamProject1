@@ -2,21 +2,21 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="Board">
     <insert id ="insertBoard">
-        insert into BOARD (category, title, writer, content)
-        values(#{category} , #{title} , #{writer} , #{content})
+        insert into Information (StudentName, StudentID, Age, Gender, Fever, Headache, RunnyNose, Cough)
+        values(#{StudentName} , #{StudentID} , #{Age}, #{Gender} , #{Fever}, #{Headache}, #{RunnyNose}, #{Cough})
     </insert>
     <update id="updateBoard">
-        update BOARD
-        set title=#{title}, content=#{content}, writer=#{writer}, category=#{category}
+        update Information
+        set StudentName=#{StudentName} , StudentID=#{StudentID} , Age=#{Age}, Gender=#{Gender}, Fever=#{Fever} ,Headache=#{Headache} , RunnyNose=#{RunnyNose} , Cough=#{Cough}
         where seq=#{seq}
     </update>
     <delete id="deleteBoard">
-        delete from BOARD where seq=#{seq}
+        delete from Information where seq=#{seq}
     </delete>
     <select id="getBoard" resultType="board">
-        select * from BOARD where seq=#{seq}
+        select * from Information where seq=#{seq}
     </select>
     <select id="getBoardList" resultType="board">
-        select * from BOARD order by seq desc
+        select * from Information order by seq desc
     </select>
 </mapper>

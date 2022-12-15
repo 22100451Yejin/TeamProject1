@@ -4,11 +4,14 @@ import java.util.Date;
 public class BoardVO {
 
     private int seq;
-    private String category;
-    private String title;
-    private String writer;
-    private String content;
-    private Date regdate;
+    private String StudentName;
+    private String StudentID;
+    private int Age;
+    private String Gender;
+    private float Fever;
+    private String Headache;
+    private String RunnyNose;
+    private String Cough;
     private int cnt;
 
     public int getSeq() { return seq; }
@@ -16,39 +19,75 @@ public class BoardVO {
         this.seq = seq;
     }
 
-    public String getCategory() {
-        return category;
-    }
-    public void setCategory(String category) {
-        this.category = category;
+    public String getStudentName() {
+        return StudentName;
     }
 
-    public String getTitle() {
-        return title;
-    }
-    public void setTitle(String title) {
-        this.title = title;
+    public void setStudentName(String studentName) {
+        this.StudentName = studentName;
     }
 
-    public String getWriter() {
-        return writer;
-    }
-    public void setWriter(String writer) {
-        this.writer = writer;
+    public String getStudentID() {
+        return StudentID;
     }
 
-    public String getContent() { return content; }
-    public void setContent(String content) {
-        this.content = content;
+    public void setStudentID(String studentID) {
+        this.StudentID = studentID;
     }
 
-    public Date getRegdate() {
-        return regdate;
+    public int getAge() {
+        return Age;
     }
-    public void setRegdate(Date regdate) { this.regdate = regdate; }
+
+    public void setAge(int age) {
+        this.Age = age;
+    }
+
+    public String getGender() {
+        return Gender;
+    }
+
+    public void setGender(String gender) {
+        this.Gender = gender;
+    }
+
+    public float getFever() {
+        return Fever;
+    }
+
+    public void setFever(float fever) {
+        this.Fever = fever;
+    }
+
+    public String getHeadache() {
+        return Headache;
+    }
+
+    public void setHeadache(String headache) {
+        this.Headache = headache;
+    }
+
+    public String getRunnyNose() {
+        return RunnyNose;
+    }
+
+    public void setRunnyNose(String runnyNose) {
+        this.RunnyNose = runnyNose;
+    }
+
+    public String getCough() {
+        return Cough;
+    }
+
+    public void setCough(String cough) {
+        this.Cough = cough;
+    }
+
 
     public int getCnt() {
         return cnt;
     }
     public void setCnt(int cnt) { this.cnt = cnt; }
+
+
 }
