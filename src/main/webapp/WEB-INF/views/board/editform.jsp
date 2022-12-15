@@ -21,6 +21,7 @@
     </table>
     <input type="submit" value="수정하기"/>
     <input type="button" value="취소하기"/>
+    <input type="reset" value="Reset">
 
 </form:form>
 </body>

@@ -15,11 +15,10 @@
         <th> 번호</th>
         <th> 이름</th>
         <th> 학번</th>
-        <th> 나이</th>
-        <th> 성별</th>
+        <th> 나이(세)</th>
+        <th> 성별(남/여)</th>
         <th> 열</th>
         <th> 두통</th>
-        <th> 피로</th>
         <th> 콧물</th>
         <th> 기침</th>
         <th> Edit</th>
@@ -44,6 +43,6 @@
     </c:forEach>
 </table>
 
-<br/><a href="add">Add New Post</a>
+<br/><a href="add">Add New Information</a>
 </body>
 </html>
