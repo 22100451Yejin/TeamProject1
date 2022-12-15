@@ -20,7 +20,7 @@
         <tr><td> 기침: </td><td><form:input path="cough" /></td></tr>
     </table>
     <input type="submit" value="수정하기"/>
-    <input type="button" value="취소하기"/>
+    <button type="button" onclick="location.href='../list'">취소하기</button>
     <input type="reset" value="Reset">
 
 </form:form>
