@@ -4,6 +4,4 @@
 
 
 <h2>Take this link:</h2>
-<h2>http://localhost:8080/TeamProject_war_exploded/login/login</h2>
-</body>
-</html>
+<h2>http://walab.handong.edu:8080/p3_22100451_1/login/login</h2>

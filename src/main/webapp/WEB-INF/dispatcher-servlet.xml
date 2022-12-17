@@ -21,7 +21,7 @@
     <mvc:resources mapping= "/resources/**" location="/resources/"/>
     <mvc:resources mapping="/img/**" location="/resources/img/" />
 
-    <bean id="loginCheckInterceptor" class="com.crud.util.LoginCheckInterceptor"  />
+    <bean id="loginCheckInterceptor" class="com.crud.LoginCheckInterceptor"  />
 
     <mvc:interceptors>
         <mvc:interceptor>
